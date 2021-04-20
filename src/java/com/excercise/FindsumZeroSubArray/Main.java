@@ -1,9 +1,11 @@
+package com.excercise.FindsumZeroSubArray;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-class Main
+public class Main
 {
     // Utility function to insert <key, value> into the multimap
     private static<K, V> void insert(Map<K, List<V>> hashMap, K key, V value)
